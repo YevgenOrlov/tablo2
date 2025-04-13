@@ -1,0 +1,19 @@
+# ninja log v5
+9	138	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/armeabi-v7a/CMakeFiles/cmake.verify_globs	7fad98d653ad0e3a
+6	8505	7655826975996473	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/EventEmitters.cpp.o	d339e62616b05b0c
+3	10375	7655826994786480	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/BlePlx-generated.cpp.o	2fc144e9cd823ce3
+5	10462	7655826995536491	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/ComponentDescriptors.cpp.o	d8236d90aa903db5
+4	10483	7655826995826485	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/Props.cpp.o	828e39b78e77ea2e
+1	10976	7655827000816475	CMakeFiles/appmodules.dir/C_/Users/Admin/tablo2/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	a27f3e4f0dbf4726
+2	11500	7655827006056485	CMakeFiles/appmodules.dir/OnLoad.cpp.o	d96fd9d40dbae5a3
+8512	13925	7655827030396534	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/BlePlxJSI-generated.cpp.o	ae5e077aca08dae2
+10463	14307	7655827034236532	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/States.cpp.o	517dbc72e4276550
+10376	15414	7655827045276476	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/ShadowNodes.cpp.o	c2d81d35da889b3e
+15414	15576	7655827046876477	C:/Users/Admin/tablo2/android/app/build/intermediates/cxx/Debug/o6d2m2n4/obj/armeabi-v7a/libappmodules.so	aad3598461e0dab1
+3	24	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/armeabi-v7a/CMakeFiles/cmake.verify_globs	7fad98d653ad0e3a
+1	25	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/armeabi-v7a/CMakeFiles/cmake.verify_globs	7fad98d653ad0e3a
+3	24	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/armeabi-v7a/CMakeFiles/cmake.verify_globs	7fad98d653ad0e3a
+2	27	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/armeabi-v7a/CMakeFiles/cmake.verify_globs	7fad98d653ad0e3a
+2	25	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/armeabi-v7a/CMakeFiles/cmake.verify_globs	7fad98d653ad0e3a
+2	25	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/armeabi-v7a/CMakeFiles/cmake.verify_globs	7fad98d653ad0e3a
+3	32	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/armeabi-v7a/CMakeFiles/cmake.verify_globs	7fad98d653ad0e3a
