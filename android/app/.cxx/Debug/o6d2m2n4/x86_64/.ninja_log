@@ -1,0 +1,13 @@
+# ninja log v5
+1	24	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/x86_64/CMakeFiles/cmake.verify_globs	fb8e8710330e7817
+4	9020	7663350737144303	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/BlePlxJSI-generated.cpp.o	cb25c029d322d82
+5	9201	7663350739025719	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/BlePlx-generated.cpp.o	c70ef34f49672c4a
+6	10253	7663350748980399	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/ComponentDescriptors.cpp.o	73561074151f1901
+1	10299	7663350749961121	CMakeFiles/appmodules.dir/C_/Users/Admin/tablo2/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	2b88b797a8fd1e92
+7	10313	7663350750091121	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/Props.cpp.o	e3afaed01badb184
+2	11017	7663350757009471	CMakeFiles/appmodules.dir/OnLoad.cpp.o	4e12edda20aaccab
+9027	13947	7663350786586915	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/EventEmitters.cpp.o	1b8f145c7dd73227
+10292	14364	7663350790758903	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/States.cpp.o	847c1b0d12e46f38
+9201	14978	7663350796866822	BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir/react/renderer/components/BlePlx/ShadowNodes.cpp.o	b9165e0a8113d180
+14978	15497	7663350802024483	C:/Users/Admin/tablo2/android/app/build/intermediates/cxx/Debug/o6d2m2n4/obj/x86_64/libappmodules.so	9a00a423b4bf57ae
+1	24	0	C:/Users/Admin/tablo2/android/app/.cxx/Debug/o6d2m2n4/x86_64/CMakeFiles/cmake.verify_globs	fb8e8710330e7817

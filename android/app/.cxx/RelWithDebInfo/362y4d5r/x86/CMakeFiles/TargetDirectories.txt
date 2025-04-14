@@ -1,0 +1,6 @@
+C:/Users/Admin/tablo2/android/app/.cxx/RelWithDebInfo/362y4d5r/x86/CMakeFiles/appmodules.dir
+C:/Users/Admin/tablo2/android/app/.cxx/RelWithDebInfo/362y4d5r/x86/CMakeFiles/edit_cache.dir
+C:/Users/Admin/tablo2/android/app/.cxx/RelWithDebInfo/362y4d5r/x86/CMakeFiles/rebuild_cache.dir
+C:/Users/Admin/tablo2/android/app/.cxx/RelWithDebInfo/362y4d5r/x86/BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir
+C:/Users/Admin/tablo2/android/app/.cxx/RelWithDebInfo/362y4d5r/x86/BlePlx_autolinked_build/CMakeFiles/edit_cache.dir
+C:/Users/Admin/tablo2/android/app/.cxx/RelWithDebInfo/362y4d5r/x86/BlePlx_autolinked_build/CMakeFiles/rebuild_cache.dir

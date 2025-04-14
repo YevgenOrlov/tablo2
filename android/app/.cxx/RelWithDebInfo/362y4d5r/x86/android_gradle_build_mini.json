@@ -1,0 +1,37 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Admin\\tablo2\\node_modules\\react-native-ble-plx\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "C:\\Users\\Admin\\tablo2\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Admin\\tablo2\\android\\app\\.cxx\\RelWithDebInfo\\362y4d5r\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Admin\\tablo2\\android\\app\\.cxx\\RelWithDebInfo\\362y4d5r\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "artifactName": "appmodules",
+      "abi": "x86",
+      "output": "C:\\Users\\Admin\\tablo2\\android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\362y4d5r\\obj\\x86\\libappmodules.so",
+      "runtimeFiles": [
+        "C:\\Users\\Admin\\.gradle\\caches\\8.10.2\\transforms\\ab403838776104c8b5f93471d162cb09\\transformed\\fbjni-0.6.0\\prefab\\modules\\fbjni\\libs\\android.x86\\libfbjni.so",
+        "C:\\Users\\Admin\\.gradle\\caches\\8.10.2\\transforms\\39112f360b4d33c8c9c78b2a3f037265\\transformed\\react-android-0.76.9-release\\prefab\\modules\\jsi\\libs\\android.x86\\libjsi.so",
+        "C:\\Users\\Admin\\.gradle\\caches\\8.10.2\\transforms\\39112f360b4d33c8c9c78b2a3f037265\\transformed\\react-android-0.76.9-release\\prefab\\modules\\reactnative\\libs\\android.x86\\libreactnative.so"
+      ]
+    },
+    "react_codegen_BlePlx::@0d03ad0a4a63aefc401b": {
+      "artifactName": "react_codegen_BlePlx",
+      "abi": "x86",
+      "runtimeFiles": []
+    }
+  }
+}
