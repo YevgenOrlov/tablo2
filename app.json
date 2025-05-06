@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tablo2",
-    "slug": "tablo2",
+    "name": "tablo3",
+    "slug": "tablo3",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,7 +25,7 @@
         "android.permission.BLUETOOTH_ADMIN",
         "android.permission.BLUETOOTH_CONNECT"
       ],
-      "package": "com.anonymous.tablo2"
+      "package": "com.anonymous.tablo3"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,7 +35,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "a0900d15-8050-4301-bfb3-61c665061632"
+        "projectId": "6b9dbf09-4937-4b4e-bb9c-d8421072aaea"
       }
     }
   }
