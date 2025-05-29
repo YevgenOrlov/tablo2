@@ -21,6 +21,7 @@ const MainScreen = () => {
     const decrementRight = () => setRightScore(prev => Math.max(prev - 1, 0));
 
     const handleColorChange = (side: 'left' | 'right', type: 'label' | 'value', color: string) => {
+        // Удаляем символ `#` для передачи
         const cleanColor = color.replace('#', '');
         if (side === 'left') {
             setLeftColors(prev => ({ ...prev, [type]: cleanColor }));
@@ -30,22 +31,24 @@ const MainScreen = () => {
     };
 
     const handleSend = () => {
-        if (connectedDevice) {
-            const data = [
-                leftScore,
-                leftName,
-                leftColors.label,
-                leftColors.value,
-                rightScore,
-                rightName,
-                rightColors.label,
-                rightColors.value,
-            ].join('|');
-
-            sendData(connectedDevice, data);
-        } else {
+        if (!connectedDevice) {
             Alert.alert('Ошибка', 'Устройство не подключено!');
+            return;
         }
+
+        const data = [
+            leftScore,
+            leftName,
+            leftColors.label,
+            leftColors.value,
+            rightScore,
+            rightName,
+            rightColors.label,
+            rightColors.value,
+        ].join('|');
+
+        console.log('Sending:', data);
+        sendData(connectedDevice, data);
     };
 
     return (
@@ -56,6 +59,7 @@ const MainScreen = () => {
                 value={leftName}
                 onChangeText={setLeftName}
             />
+
             <Counter
                 label="Левый счёт"
                 value={leftScore}
@@ -70,6 +74,7 @@ const MainScreen = () => {
                 value={rightName}
                 onChangeText={setRightName}
             />
+
             <Counter
                 label="Правый счёт"
                 value={rightScore}
@@ -104,3 +109,4 @@ const styles = StyleSheet.create({
 });
 
 export default MainScreen;
+

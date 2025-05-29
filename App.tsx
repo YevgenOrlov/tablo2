@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, StyleSheet, Button, Text } from 'react-native';
 import { Counter } from './components/Counter';
-import { NameInput } from './components/NameInput'; // ← обязательно подключаем
 import {
   requestPermissions,
   getBondedDevices,
@@ -13,8 +12,6 @@ import type { BluetoothDevice } from 'react-native-bluetooth-classic';
 export default function App() {
   const [leftScore, setLeftScore] = useState(0);
   const [rightScore, setRightScore] = useState(0);
-  const [leftName, setLeftName] = useState('');
-  const [rightName, setRightName] = useState('');
   const [connectedDevice, setConnectedDevice] = useState<BluetoothDevice | null>(null);
 
   useEffect(() => {
@@ -33,7 +30,7 @@ export default function App() {
 
   const sendDataToBluetooth = async () => {
     if (connectedDevice) {
-      const payload = `${leftScore}|${leftName}|0|${rightScore}|${rightName}`;
+      const payload = `${leftScore}|0|${rightScore}|0|0`;
       console.log('Отправка:', payload);
       await safeSendData(connectedDevice, payload + '\n');
     } else {
@@ -43,20 +40,14 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      {/* Кнопка сканирования Bluetooth-устройств */}
       <Button title="Сканировать устройства" onPress={scanDevices} />
 
-      {/* Информация о подключении */}
       {connectedDevice && (
         <Text style={styles.connectedText}>
           Подключено к: {connectedDevice.name}
         </Text>
       )}
 
-      {/* Ввод имени слева */}
-      <NameInput label="Имя слева" value={leftName} onChange={setLeftName} />
-
-      {/* Счётчик слева */}
       <Counter
         label="Счёт слева"
         value={leftScore}
@@ -64,10 +55,6 @@ export default function App() {
         onDecrement={() => setLeftScore(prev => Math.max(0, prev - 1))}
       />
 
-      {/* Ввод имени справа */}
-      <NameInput label="Имя справа" value={rightName} onChange={setRightName} />
-
-      {/* Счётчик справа */}
       <Counter
         label="Счёт справа"
         value={rightScore}
@@ -75,7 +62,6 @@ export default function App() {
         onDecrement={() => setRightScore(prev => Math.max(0, prev - 1))}
       />
 
-      {/* Кнопка отправки данных */}
       <Button title="Отправить по Bluetooth" onPress={sendDataToBluetooth} />
     </View>
   );
@@ -85,5 +71,6 @@ const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: 'center', padding: 20 },
   connectedText: { textAlign: 'center', marginVertical: 10, fontSize: 16 },
 });
+
 
 
