@@ -1,74 +1,56 @@
 // components/Counter.tsx
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
+import ClassSlider from './ClassSlider';
 import ColorPickerModal from './ColorPickerModal';
 
-type Props = {
+interface CounterProps {
     label: string;
     value: number;
     onIncrement: () => void;
     onDecrement: () => void;
-    onColorChange?: (type: 'label' | 'value', color: string) => void;
-};
+    onColorChange: (type: 'label' | 'value', color: string) => void;
+}
 
-export const Counter: React.FC<Props> = ({
-    label,
-    value,
-    onIncrement,
-    onDecrement,
-    onColorChange,
-}) => {
-    const [labelColor, setLabelColor] = useState('#000000');
-    const [valueColor, setValueColor] = useState('#000000');
+export const Counter = ({ label, value, onIncrement, onDecrement, onColorChange }: CounterProps) => {
+    const [modalVisible, setModalVisible] = useState(false);
+    const [colorType, setColorType] = useState<'label' | 'value'>('label');
 
-    const [labelPickerVisible, setLabelPickerVisible] = useState(false);
-    const [valuePickerVisible, setValuePickerVisible] = useState(false);
-
-    const handleLabelColorChange = (color: string) => {
-        setLabelColor(color);
-        onColorChange?.('label', color);
-    };
-
-    const handleValueColorChange = (color: string) => {
-        setValueColor(color);
-        onColorChange?.('value', color);
+    const openColorPicker = (type: 'label' | 'value') => {
+        setColorType(type);
+        setModalVisible(true);
     };
 
     return (
         <View style={styles.container}>
-            <Text style={[styles.label, { color: labelColor }]}>{label}</Text>
-            <Text style={[styles.value, { color: valueColor }]}>{value}</Text>
-
+            <Text>{label}: {value}</Text>
             <View style={styles.buttons}>
-                <Button title="+" onPress={onIncrement} />
                 <Button title="-" onPress={onDecrement} />
+                <Button title="+" onPress={onIncrement} />
             </View>
-
-            <View style={styles.buttons}>
-                <Button title="Цвет имени" onPress={() => setLabelPickerVisible(true)} />
-                <Button title="Цвет счёта" onPress={() => setValuePickerVisible(true)} />
+            <ClassSlider value={value} onValueChange={(v) => { }} min={0} max={99} />
+            <View style={styles.colorButtons}>
+                <Button title="Цвет метки" onPress={() => openColorPicker('label')} />
+                <Button title="Цвет значения" onPress={() => openColorPicker('value')} />
             </View>
-
             <ColorPickerModal
-                visible={labelPickerVisible}
-                onClose={() => setLabelPickerVisible(false)}
-                onColorSelected={handleLabelColorChange}
-            />
-
-            <ColorPickerModal
-                visible={valuePickerVisible}
-                onClose={() => setValuePickerVisible(false)}
-                onColorSelected={handleValueColorChange}
+                visible={modalVisible}
+                onClose={() => setModalVisible(false)}
+                onPick={(color) => {
+                    onColorChange(colorType, color);
+                    setModalVisible(false);
+                }}
             />
         </View>
     );
 };
 
 const styles = StyleSheet.create({
-    container: { margin: 10, alignItems: 'center' },
-    label: { fontSize: 18 },
-    value: { fontSize: 32, marginVertical: 10 },
-    buttons: { flexDirection: 'row', gap: 10, marginVertical: 5 },
+    container: { marginVertical: 10 },
+    buttons: { flexDirection: 'row', justifyContent: 'space-between', marginVertical: 10 },
+    colorButtons: { flexDirection: 'row', justifyContent: 'space-between', marginTop: 10 },
 });
+
+
 
 

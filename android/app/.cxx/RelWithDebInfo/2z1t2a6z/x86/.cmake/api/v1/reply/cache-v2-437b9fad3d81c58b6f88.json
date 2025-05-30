@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "x86_64"
+			"value" : "x86"
 		},
 		{
 			"name" : "ANDROID_NDK",
@@ -99,7 +99,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "x86_64"
+			"value" : "x86"
 		},
 		{
 			"name" : "CMAKE_ANDROID_NDK",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86_64"
+			"value" : "c:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Admin\\tablo3\\android\\app\\.cxx\\RelWithDebInfo\\2z1t2a6z\\prefab\\x86_64\\prefab"
+			"value" : "C:\\Users\\Admin\\tablo3\\android\\app\\.cxx\\RelWithDebInfo\\2z1t2a6z\\prefab\\x86\\prefab"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Admin\\tablo3\\android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2z1t2a6z\\obj\\x86_64"
+			"value" : "C:\\Users\\Admin\\tablo3\\android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2z1t2a6z\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1027,7 +1027,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Admin\\tablo3\\android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2z1t2a6z\\obj\\x86_64"
+			"value" : "C:\\Users\\Admin\\tablo3\\android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2z1t2a6z\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1323,7 +1323,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/x86_64/prefab/lib/x86_64-linux-android/cmake/ReactAndroid"
+			"value" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/x86/prefab/lib/i686-linux-android/cmake/ReactAndroid"
 		},
 		{
 			"name" : "appmodules_BINARY_DIR",
@@ -1335,7 +1335,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86_64"
+			"value" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86"
 		},
 		{
 			"name" : "appmodules_IS_TOP_LEVEL",
@@ -1371,7 +1371,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/x86_64/prefab/lib/x86_64-linux-android/cmake/fbjni"
+			"value" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/x86/prefab/lib/i686-linux-android/cmake/fbjni"
 		}
 	],
 	"kind" : "cache",

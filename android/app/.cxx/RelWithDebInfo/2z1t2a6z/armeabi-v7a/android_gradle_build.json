@@ -1,6 +1,5 @@
 {
   "buildFiles": [
-    "C:\\Users\\Admin\\tablo3\\node_modules\\@react-native-community\\slider\\android\\src\\main\\jni\\CMakeLists.txt",
     "C:\\Users\\Admin\\tablo3\\node_modules\\react-native-ble-plx\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
     "C:\\Users\\Admin\\tablo3\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt"
   ],
@@ -25,7 +24,6 @@
       "artifactName": "appmodules",
       "output": "C:\\Users\\Admin\\tablo3\\android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2z1t2a6z\\obj\\armeabi-v7a\\libappmodules.so",
       "runtimeFiles": [
-        "C:\\Users\\Admin\\tablo3\\android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2z1t2a6z\\obj\\armeabi-v7a\\libreact_codegen_RNCSlider.so",
         "C:\\Users\\Admin\\.gradle\\caches\\8.10.2\\transforms\\ab403838776104c8b5f93471d162cb09\\transformed\\fbjni-0.6.0\\prefab\\modules\\fbjni\\libs\\android.armeabi-v7a\\libfbjni.so",
         "C:\\Users\\Admin\\.gradle\\caches\\8.10.2\\transforms\\39112f360b4d33c8c9c78b2a3f037265\\transformed\\react-android-0.76.9-release\\prefab\\modules\\jsi\\libs\\android.armeabi-v7a\\libjsi.so",
         "C:\\Users\\Admin\\.gradle\\caches\\8.10.2\\transforms\\39112f360b4d33c8c9c78b2a3f037265\\transformed\\react-android-0.76.9-release\\prefab\\modules\\reactnative\\libs\\android.armeabi-v7a\\libreactnative.so"
@@ -35,17 +33,6 @@
       "toolchain": "toolchain",
       "abi": "armeabi-v7a",
       "artifactName": "react_codegen_BlePlx"
-    },
-    "react_codegen_RNCSlider::@4898bc4726ecf1751b6a": {
-      "toolchain": "toolchain",
-      "abi": "armeabi-v7a",
-      "artifactName": "react_codegen_RNCSlider",
-      "output": "C:\\Users\\Admin\\tablo3\\android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2z1t2a6z\\obj\\armeabi-v7a\\libreact_codegen_RNCSlider.so",
-      "runtimeFiles": [
-        "C:\\Users\\Admin\\.gradle\\caches\\8.10.2\\transforms\\ab403838776104c8b5f93471d162cb09\\transformed\\fbjni-0.6.0\\prefab\\modules\\fbjni\\libs\\android.armeabi-v7a\\libfbjni.so",
-        "C:\\Users\\Admin\\.gradle\\caches\\8.10.2\\transforms\\39112f360b4d33c8c9c78b2a3f037265\\transformed\\react-android-0.76.9-release\\prefab\\modules\\jsi\\libs\\android.armeabi-v7a\\libjsi.so",
-        "C:\\Users\\Admin\\.gradle\\caches\\8.10.2\\transforms\\39112f360b4d33c8c9c78b2a3f037265\\transformed\\react-android-0.76.9-release\\prefab\\modules\\reactnative\\libs\\android.armeabi-v7a\\libreactnative.so"
-      ]
     }
   },
   "toolchains": {

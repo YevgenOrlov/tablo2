@@ -1,9 +1,6 @@
 C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/CMakeFiles/appmodules.dir
 C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/CMakeFiles/edit_cache.dir
 C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/react_codegen_RNCSlider.dir
-C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/edit_cache.dir
-C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/rebuild_cache.dir
 C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/BlePlx_autolinked_build/CMakeFiles/react_codegen_BlePlx.dir
 C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/BlePlx_autolinked_build/CMakeFiles/edit_cache.dir
 C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/BlePlx_autolinked_build/CMakeFiles/rebuild_cache.dir

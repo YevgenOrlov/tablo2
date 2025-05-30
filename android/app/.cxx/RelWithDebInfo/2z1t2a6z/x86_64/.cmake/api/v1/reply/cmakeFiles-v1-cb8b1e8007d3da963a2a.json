@@ -199,10 +199,6 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/Admin/tablo3/node_modules/@react-native-community/slider/android/src/main/jni/CMakeLists.txt"
-		},
-		{
-			"isExternal" : true,
 			"path" : "C:/Users/Admin/tablo3/node_modules/react-native-ble-plx/android/build/generated/source/codegen/jni/CMakeLists.txt"
 		}
 	],

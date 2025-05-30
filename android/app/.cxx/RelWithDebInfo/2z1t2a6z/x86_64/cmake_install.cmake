@@ -44,7 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86_64/RNCSlider_autolinked_build/cmake_install.cmake")
   include("C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86_64/BlePlx_autolinked_build/cmake_install.cmake")
 
 endif()

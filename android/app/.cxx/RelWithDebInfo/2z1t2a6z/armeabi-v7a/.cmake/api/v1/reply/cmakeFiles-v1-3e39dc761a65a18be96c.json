@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake"
+			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -36,11 +36,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake"
+			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake"
+			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -179,27 +179,23 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/x86/prefab/lib/i686-linux-android/cmake/ReactAndroid/ReactAndroidConfigVersion.cmake"
+			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/ReactAndroid/ReactAndroidConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/x86/prefab/lib/i686-linux-android/cmake/ReactAndroid/ReactAndroidConfig.cmake"
+			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/ReactAndroid/ReactAndroidConfig.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/x86/prefab/lib/i686-linux-android/cmake/fbjni/fbjniConfigVersion.cmake"
+			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/fbjni/fbjniConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/x86/prefab/lib/i686-linux-android/cmake/fbjni/fbjniConfig.cmake"
+			"path" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/fbjni/fbjniConfig.cmake"
 		},
 		{
 			"isExternal" : true,
 			"path" : "C:/Users/Admin/tablo3/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Users/Admin/tablo3/node_modules/@react-native-community/slider/android/src/main/jni/CMakeLists.txt"
 		},
 		{
 			"isExternal" : true,
@@ -209,7 +205,7 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/x86",
+		"build" : "C:/Users/Admin/tablo3/android/app/.cxx/RelWithDebInfo/2z1t2a6z/armeabi-v7a",
 		"source" : "C:/Users/Admin/tablo3/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup"
 	},
 	"version" : 

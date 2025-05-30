@@ -1,38 +1,26 @@
+// components/ColorPickerModal.tsx
 import React from 'react';
-import { Modal, View, Button, StyleSheet } from 'react-native';
-import { ColorPicker } from 'react-native-color-picker';
+import { View, Text, Modal, Button } from 'react-native';
 
-type Props = {
+interface Props {
     visible: boolean;
     onClose: () => void;
-    onColorSelected: (color: string) => void;
-};
+    onPick: (color: string) => void;
+}
 
-const ColorPickerModal: React.FC<Props> = ({ visible, onClose, onColorSelected }) => {
+const ColorPickerModal = ({ visible, onClose, onPick }: Props) => {
     return (
         <Modal visible={visible} animationType="slide">
-            <View style={styles.modal}>
-                <ColorPicker
-                    onColorSelected={(color) => {
-                        onColorSelected(color);
-                        onClose(); // Закрытие после выбора
-                    }}
-                    style={{ flex: 1 }}
-                />
+            <View>
+                <Text>Выбор цвета</Text>
+                <Button title="Красный" onPress={() => onPick('#FF0000')} />
                 <Button title="Закрыть" onPress={onClose} />
             </View>
         </Modal>
     );
 };
 
-const styles = StyleSheet.create({
-    modal: {
-        flex: 1,
-        padding: 20,
-        backgroundColor: '#fff',
-    },
-});
-
 export default ColorPickerModal;
+
 
 
